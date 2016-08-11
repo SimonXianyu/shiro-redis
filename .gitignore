@@ -1,0 +1,41 @@
+# common ignore
+*.bak
+*.log
+*.tmp
+node_modules
+.DS_Store
+bin/*.jar
+_book
+doc/assets
+
+# git
+.git
+
+# maven
+target
+
+# gradle
+.gradle
+build
+gradle.properties
+out
+
+# intellij
+.idea
+*.iml
+
+# eclipse
+.classpath
+.project
+.settings
+
+
+# ignore code father files
+*Base.java
+base/*Base.java
+base/*Key.java
+inc-list.ftl
+inc-edit.ftl
+
+#ignore local properties
+*-local.properties
